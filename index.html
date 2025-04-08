@@ -655,6 +655,7 @@
                     <li>Kubernetes 기반 환경에서의 Rancher, Whatap, Grafana 등을 통한 Pod 모니터링으로 데이터 누락 최소화 및 장애 대응</li>
                     <li>FeignClient 적용하여 코드 생산성 향상</li>
                     <li>WebSquare 기반 Admin 시스템 개발 및 유지보수</li>
+                    <li>객체 간 매핑을 위한 MapStruct 적용으로 개발 생산성 향상</li>
                     <li>Spring Batch 개선 작업을 통하여 성능 200% 증가</li>
                   </ul>
                 </div>
@@ -676,7 +677,7 @@
                     <li>프로젝트 패킹 스크립트 작성 (Gradle)</li>
                     <li>Node.js + Express.js + Puppeteer 기반 전시 매장 스냅샷 자동화 시스템 개발</li>
                     <li>사용자 Needs 에 맞는 사용성 개선과 신규 비즈니스 로직 구현</li>
-                    <li>Kotlin 전환 작업 완료</li>
+                    <li>Java -> Kotlin 전환으로 null 안정성과 개발 생산성 향상</li>
                   </ul>
                 </div>
 
@@ -688,7 +689,9 @@
                   <i class="gray">롯데쇼핑 e커머스사업본부</i>
                   <ul class="pt-3">
                     <li>MeterRegistry 기반 Metric 수집 자동화 기능 개발로 버스트 트래픽 대응 안정성 강화</li>
-                    <li>코드 가이드라인 제공 및 비효율 코드 제거를 통해 개발 생산성 향상</li>
+                    <li>jmeter, ngrinder 를 사용한 부하 테스트로 안정성 확보</li>
+                    <li>추가적인 리소스 없이 완료한 내용을 전사로 공유하여 전체 사용 비용 감소에 기여</li>
+                    <li>Aspect 를 통한 관리 용이성 증가</li>
                   </ul>
                 </div>
 
@@ -704,6 +707,7 @@
                     <li>ReadFrom.REPLICA_PREFERRED 전략을 적용하여 읽기 성능을 극대화하고, 장애 시 Master fallback 설계</li>
                     <li>개선 작업 후 Redis 요청 처리 성능 기존 대비 150% 이상 증가, 서비스 응답 지연율 감소</li>
                     <li>Gzip 압축 및 hotkey 최적화로 응답 속도 25% 개선</li>
+                    <li>사용성 최적화 및 인스턴스 축소로 전체 사용 비용 감소에 기여</li>
                   </ul>
                 </div>
 
@@ -717,6 +721,7 @@
                     <li>인덱스 샤드 개수 최적화를 통한 검색 성능 30% 향상</li>
                     <li>불필요 인덱스 정리 및 쿼리 튜닝으로 시스템 부하 감소</li>
                     <li>X-Opaque-Id 를 사용하여 Slow Query 디버그 가시성 증가</li>
+                    <li>사용성 최적화 및 인스턴스 축소로 전체 사용 비용 감소에 기여</li>
                   </ul>
                 </div>
               </div>
@@ -729,19 +734,13 @@
                   <h4>올리브영 글로벌 자사몰 개발 및 운영</h4>
                   <i class="gray">CJ올리브영</i>
                   <ul class="pt-3">
-                    <li>
-                      Spring Boot, Spring Quartz, Spring Batch, Maven, JSP,
-                      Jquery, AWS 등을 활용하여 개발
-                    </li>
-                    <li>Cloudsearch를 통한 검색성능 개선</li>
-                    <li>Elastic Cache(Redis)를 도입하여 시스템 성능 향상</li>
-                    <li>
-                      Code Commit, Code Build, Code Deploy, Code Pipeline을 통한
-                      CI/CD 구성
-                    </li>
                     <li>애플리케이션 개발 및 프로덕트 매니징</li>
-                    <li>Google Analytics, Google Tag Manager 연동</li>
-                    <li>인플루언서 관리 서비스 도입</li>
+                    <li>글로벌 자사몰 오픈을 위한 Java + Spring Boot 기반 시스템 개발</li>
+                    <li>Cloudsearch 도입을 통한 검색 성능 향상</li>
+                    <li>ElasticCache(Redis) 구축으로 시스템 응답속도 개선</li>
+                    <li>CodePipeline 기반 CI/CD 자동화 구성 및 운영 프로세스 최적화</li>
+                    <li>Google Analytics, GTM 연동을 통한 데이터 분석 기반 마케팅 지원</li>
+                    <li>인플루언서 관리 서비스 도입으로 구매 전환율 향상</li>
                   </ul>
                 </div>
               </div>
@@ -754,21 +753,14 @@
                   <h4>공통 API 및 인프라 개선</h4>
                   <i class="gray">CJ올리브영</i>
                   <ul class="pt-3">
+                    <li>코드베이스 개발로 인한 개발 생산성 증대</li>
+                    <li>공통 API 및 인프라 구축으로 다양한 전사 시스템 연동성 확보</li>
                     <li>
-                      신규 시스템 구축 시 빠르게 초기 구성이 가능한 코드베이스
-                      개발
-                    </li>
-                    <li>전사 시스템을 인터페이스 할 수 있는 공통 API 개발</li>
-                    <li>
-                      Docker, Docker Compose, Docker Swarm을 활용한 Container
-                      기반 DB 환경 구성 (MySQL, Orchestrator, ProxySQL,
-                      NFS(=Network File System) Grafana, Prometheus)
+                      Docker, Docker Compose, Docker Swarm을 활용한 Container 환경 기반 데이터베이스 환경 구성 
+                      (MySQL, Orchestrator, ProxySQL, NFS(=Network File System) Grafana, Prometheus)
                     </li>
                     <li>Pinpoint 버전 업그레이드</li>
-                    <li>
-                      런타임 흐름 제어, 예외 처리, 로깅, 외부 연동, 공통
-                      유틸리티 개발
-                    </li>
+                    <li>런타임 흐름 제어, 예외 처리, 로깅, 외부 연동, 공통 유틸리티 개발</li>
                   </ul>
                 </div>
               </div>
