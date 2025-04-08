@@ -286,9 +286,38 @@
               </div>
             </div>
           </div>
-          <hr />    
-        </div>
-      </div>              
+          <hr />          
+
+          <!-- div class="row">
+            <div class="col-12 col-md-3 text-md-right">
+              <h4 class="gray">Front-end</h4>
+            </div>
+            <div class="col-12 col-md-9">
+              <div class="row">
+                <div class="col">
+                  <ul>
+                    <li>React (Redux, React Hook)</li>
+                    <li>Typescript</li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <ul>
+                    <li>NPM or Yarn</li>
+                    <li>Webpack</li>
+                    <li>Prettier</li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <ul>
+                    <li>MSW</li>
+                    <li>lint-staged</li>
+                    <li>bootstrap</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr / -->
       <!-- Skills End -->
 
       <!-- Experience Start -->
